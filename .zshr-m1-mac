@@ -121,7 +121,10 @@ alias tailt="tail -n 100 log/test.log"
 alias taild="tail -n 100 log/development.log"
 
 # for git
+alias gs="git status"
+alias gd="git diff"
 alias glg="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gpo="git push origin"
 alias gpom="git push origin master"
 alias gco="git checkout"
 alias gplm="git pull origin master"
@@ -134,7 +137,10 @@ alias hp="HTTP_PROXY=https://neversion:chenjunjie@p.xmulib.org:8288"
 #for docker
 alias docker-redis="docker run -p 6379:6379 -d neversion/redis"
 alias dcls="docker container ls"
-alias da="docker exec -it"
+alias de="docker exec -it"
+alias dps="docker ps"
+alias dc="docker-compose"
+alias dcrun="docker-compose run --service-ports"
 
 #for mysql
 alias msstart="mysql.server start"
