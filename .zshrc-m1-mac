@@ -147,3 +147,7 @@ alias msstart="mysql.server start"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+#for Laravel
+alias sail="./vendor/bin/sail"
+alias tinker="./vendor/bin/sail tinker"
